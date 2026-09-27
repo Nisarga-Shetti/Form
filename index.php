@@ -270,6 +270,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST") {
 <!DOCTYPE html>
 <html lang="en">
     
+    <!--Head Section-->
     <head>
         <meta charset="UTF-8">
         <title>Scholarship Application</title>
