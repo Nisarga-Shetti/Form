@@ -380,6 +380,110 @@ if($_SERVER["REQUEST_METHOD"]==="POST") {
                 grid-template-columns: repeat(2,1fr);
                 gap: 20px;
             }
+
+            .form-group{
+                margin-bottom: 18px;
+            }
+
+            label{
+                display: block;
+                margin-bottom: 7px;
+                font-weight: bold;
+                color: #333;
+            }
+
+            input, select, textarea{
+                width: 100%;
+                padding: 13px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                font-size: 15px;
+                outline: none;
+            }
+
+            textarea{
+                min-height: 110px;
+                resize: vertical;
+            }
+
+            .radio-group{
+                display: flex;
+                gap: 25px;
+                flex-wrap: wrap;
+            }
+
+            .radio-group label{
+                font-weight: normal;
+            }
+
+            .radio-group input{
+                width: auto;
+                margin-right: 5px;
+            }
+
+            .file-box{
+                padding: 15px;
+                border: 2px dashed #b8aef5;
+                border-radius: 12px;
+                background: #f87ff;
+            }
+
+            .file-box input{
+                border: none;
+            }
+
+            .declaration{
+                margin-top: 25px;
+                padding: 18px;
+                border-radius: 12px;
+                background: #f0f2ff;
+                border-left: 5px solid #667eea;
+            }
+
+            .declaration label{
+                display: flex;
+                gap: 10px;
+                font-weight: normal;
+                line-height: 1.5;
+            }
+
+            .declaration input{
+                width: auto;
+                margin-top: 4px;
+            }
+
+            .buttons{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 15px;
+                margin-top: 25px;
+            }
+
+            button{
+                padding: 15px;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .submit{
+                color: white;
+                background: linear-gradient(135deg,#667eea,#764ba2);
+            }
+
+            .reset{
+                background: #ddd;
+                color: #333;
+            }
+
+            .footer{
+                text-align: center;
+                margin-top: 25px;
+                color: #777;
+                font-size: 13px;
+            }
         </style>
         
     </head>
