@@ -274,6 +274,114 @@ if($_SERVER["REQUEST_METHOD"]==="POST") {
     <head>
         <meta charset="UTF-8">
         <title>Scholarship Application</title>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                min-height: 100vh;
+                padding: 40px 20px;
+                background: linear-gradient(-45deg,#667eea,#764ba2,#6a11cb,#2575fc);
+                background-size: 400% 400%;
+            }
+
+            .container{
+                max-width: 950px;
+                margin: auto;
+                padding: 40px;
+            }
+
+            .header{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .icon{
+                width: 75px;
+                height: 75px;
+                margin: 0 auto 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background: linear-gradient(135deg,#667eea,#764ba2);
+                font-size: 35px;
+                box-shadow: 0 10px 25px rgba(102,126,234,0.4);
+            }
+
+            h1{
+                color: #302b63;
+                margin-bottom: 10px;
+                font-size: 32px;
+            }
+
+            .description{
+                color: #666;
+                line-height: 1.6;
+            }
+
+            .alert{
+                padding: 16px;
+                margin-bottom: 25px;
+                border-radius: 12px;
+                font-weight: bold;
+            }
+
+            .success{
+                background: #dcfce7;
+                color: #166534;
+                border-left: 5px solid #22c55e;
+            }
+
+            .error{
+                background: #fee2e2;
+                color: #991b1b;
+                border-left: 5px solid #ef4444;
+            }
+
+            .section{
+                margin-top: 25px;
+                padding: 25px;
+                background: #fafaff;
+                border: 1px solid #e5e7eb;
+                border-radius: 18px;
+            }
+
+            h2{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #5a4fcf;
+                font-size: 20px;
+                margin-bottom: 20px;
+                padding-bottom: 12px;
+                border-bottom: 2px solid #e5e7eb;
+            }
+
+            .number{
+                width: 32px;
+                height: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background: linear-gradient(135deg,#667eea,#764ba2);
+                color: white;
+                font-size: 14px;
+            }
+
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;
+            }
+        </style>
+        
     </head>
 
     <body>
